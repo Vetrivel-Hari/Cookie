@@ -7,7 +7,7 @@ function setCookie(){
 	console.log(rollno);
 	console.log(cgpa);
 
-	document.cookie="name=" + name;
-	document.cookie="rollno=" + rollno;
-	document.cookie="cgpa=" + cgpa;
+	document.cookie="name=" + name + "; SameSite=None";
+	document.cookie="rollno=" + rollno + "; SameSite=None";
+	document.cookie="cgpa=" + cgpa + "; SameSite=None";
 }
