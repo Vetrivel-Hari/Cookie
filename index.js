@@ -1,17 +1,12 @@
-document.cookie="hello=world";
-
 function setCookie(){
-	let name = document.getElementById("fname").value;
+	let name = document.getElementById("name").value;
 	let rollno = document.getElementById("rollno").value;
-	let cgpa = document.getElementById("cgpa").value;
 	
 	console.log(name);
 	console.log(rollno);
-	console.log(cgpa);
 
-    let c = cookie="name=" + name + "; rollno=" + rollno + "; cgpa=" + cgpa + ";SameSite=Lax";
-    
-	document.cookie=c;
+	document.cookie="name="+name;
+	document.cookie="rollno="+rollno;
 	
 	console.log(document.cookie);
 }
