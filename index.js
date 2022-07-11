@@ -1,3 +1,5 @@
+document.cookie="hello=world";
+
 function setCookie(){
 	let name = document.getElementById("fname").value;
 	let rollno = document.getElementById("rollno").value;
